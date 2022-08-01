@@ -1,0 +1,36 @@
+{
+  "name": "@mrlerandom/can-tweet",
+  "version": "1.0.0",
+  "description": "Check if string can tweet",
+  "main": "dist/index.js",
+  "keywords": [
+    "twitter",
+    "api",
+    "tweet",
+    "cantweet"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint --ext \".ts\" --ignore-path .gitignore ."
+  },
+  "author": "Florian Mifsud (https://twitter.com/florianmifsud)",
+  "license": "Apache-2.0",
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.33.0",
+    "@typescript-eslint/parser": "^4.33.0",
+    "eslint": "^7.32.0",
+    "typescript": "^4.7.4"
+  },
+  "types": "./dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FlorianMifsud/CanTweet.git"
+  },
+  "bugs": {
+    "url": "https://github.com/FlorianMifsud/CanTweet/issues"
+  },
+  "homepage": "https://github.com/FlorianMifsud/CanTweet#readme"
+}

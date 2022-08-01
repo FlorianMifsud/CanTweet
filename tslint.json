@@ -1,0 +1,15 @@
+{
+  "defaultSeverity": "error",
+  "extends": ["eslint:recommended", "plugin:@typescript-eslint/recommended"],
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint"],
+  "root": true,
+  "jsRules": {},
+  "rules": {
+    "no-console": false
+  },
+  "lib": ["es2022"],
+  "strict": true,
+  "esModuleInterop": true,
+  "rulesDirectory": ["./dist/**/*"]
+}
